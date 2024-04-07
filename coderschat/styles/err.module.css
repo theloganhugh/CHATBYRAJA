@@ -1,0 +1,72 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 60vw;
+    overflow: hidden;
+    font-family: 'Road Rage', cursive;
+    font-size: 7rem;
+    color: white;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 40vw;
+    overflow: hidden;
+}
+.spa{
+    display: inline;
+    font-size: 3rem;
+    
+}
+.spamain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+}
+.btn{
+    display: inline;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color:#200122;;
+    padding:  0.8rem  1.3rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 5px;
+  color: white;
+  
+}.btn:hover{
+    background-color: #bb3e03;
+}
+.img{
+    max-height: 500px;
+    max-width: 500px;
+}
+.meme{
+    color: white;
+    margin: 7px;
+    font-size: 1.3rem;
+    font-family: 'Titillium Web', sans-serif;
+}

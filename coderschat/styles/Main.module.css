@@ -1,0 +1,142 @@
+.body{
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    width: 120vw;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.leftside{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+height: 90%;
+width: 57.5%;
+
+color: white;
+justify-self: center;
+padding-right: 10px;
+
+}
+.leftside img{
+  max-width: 20%;
+  max-height: 20%;
+  
+}
+.right{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:stretch;
+    height: 90%;
+    width: 37.5%;
+   
+    
+    }
+    .logo {
+        font-size: 2.5rem;
+        color: white;
+        font-weight: bold;
+        font-family: 'Comforter', cursive;
+        text-align: center;
+      }
+.tagline{
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+      .line{
+        text-decoration: overline;
+        background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  width: 50%;
+  height: 100%;
+  background-color: #0096c7;
+ border-bottom-left-radius: 6px;
+ border-top-left-radius: 6px;
+
+ background: #23074d;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+      }
+      .linelogin{
+        text-decoration: overline;
+        background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  width: 50%;
+  height: 100%;
+  background-color: #0096c7;
+ border-bottom-right-radius: 6px;
+ border-top-right-radius: 6px;
+ background: #23074d;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+      }
+    
+      .btn{
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        width: 50%;
+      
+        
+        height: 100%;
+        background: #000428;
+
+      }
+     .title {
+       padding: 0;
+            
+       margin: 0;
+   
+         font-size: 1.5rem;
+         text-align: center;
+         display: flex;
+         flex-direction: row;
+         justify-content:space-around;
+         align-items: center;
+         height: 12vh;
+         
+        color: white;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px #6c757d;
+        background-color: #212529;
+       
+     }

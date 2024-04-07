@@ -1,0 +1,147 @@
+
+.container {
+  margin: 0 auto;
+    width: 90%;
+    max-width: 40rem;
+    height: auto;
+   
+    background: inherit;
+  color: white;
+  padding-bottom: 20px;
+  padding-top:10px;
+}
+.nodata{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 700px;
+  
+}
+.main {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: #080708;
+ 
+  color: white;
+  min-height: 100vh;
+}
+
+.button{
+  background: none;
+color: white;
+border: none;
+padding: 0;
+font: inherit;
+cursor: pointer;
+outline: inherit;
+  
+  margin: 10px;
+}
+.close{
+  text-align: right;
+  font-family: 'Coda', cursive;
+}
+.code {
+  background-color: #080708;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+.modelback{
+  width: 100vw;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: #f7f7f73a;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.overlay{
+  width: 70%;
+  height: 80%;
+  
+  color: white;
+  z-index: 2;
+  
+}
+.main2{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: #080708;
+ z-index: 1;
+  color: white;
+  min-height: 100vh;
+}
+.container2{
+  width: 70%;
+z-index: 1;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main{
+    background-color: #0086b3;
+  }
+  .container{
+    background-color: #0086b3;
+  }
+}
