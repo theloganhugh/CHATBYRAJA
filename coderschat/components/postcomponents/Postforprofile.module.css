@@ -1,0 +1,236 @@
+
+  .userblock{
+    margin:0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%; 
+    padding: 0 ;
+    padding-left: 1rem;
+    padding-top: 10px;
+    padding-right: 1rem;
+  }
+  .username{
+    width: 100%; 
+    text-align: right;
+    height: auto;
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Offside', cursive;
+      
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+ .menu{
+  text-align: left;
+  
+  }
+  .image {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+  
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    max-height: 750px;
+  
+  }
+  
+  .content {
+    text-align:left;
+    padding: 1rem;
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;    
+
+  }
+  
+  .button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+
+	cursor: pointer;
+	outline: inherit;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: inherit;
+  }
+  .modelback{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f73a;
+     position: fixed;
+     top: 0%;
+     left: 0%;
+    /* transform: translate(-50%, -50%);*/
+z-index: 2;
+    }
+  
+
+  .postmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 20%;
+    height: 25%;
+    background-color: #212529;
+    padding: 5px 10px;
+    
+    z-index: 2;
+  }
+  .confirmdel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 20%;
+    height: 25%;
+    background-color: #212529;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .btn{
+    background: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+	color: inherit;
+	border: none;
+
+width: 100%;
+	cursor: pointer;
+	outline: inherit;
+ padding: 0.7rem;
+   
+    background-color: #00b4d8;
+  }
+  .btn:hover,
+  .btn:active, 
+  .btn:focus{
+    
+    box-shadow: 3px 3px #045E70;
+  }
+  .comuser{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    text-align:left;
+    padding-right:  7px;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  .com{
+    margin: 0px;
+    padding: 0px;
+   
+    text-align:left;
+    padding-right:  7px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .user{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    text-align:left;
+    padding-right:  7px;
+    font-size: 1.05rem;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  .allcom{
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #aaddff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  .sform{
+    padding: 0;
+    margin: 0;
+   color: inherit;
+
+  }
+  .control {
+    font-size: 15pt;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+  
+   
+
+  }
+  .incom{
+    width: 98%;
+    height: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 0px solid #c31432;
+    box-sizing: border-box;
+background-color: inherit;
+color: white
+   
+  }
+ 
+  .combtn{
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    font-size: 1.18rem;
+    background-color: inherit;
+    
+    padding:  8px  14px;
+    border: 0px solid #c31432;
+  
+  color: white;
+  
+   
+  }
+  .combtn:disabled{
+    color: #c31432;;
+    cursor: not-allowed;
+  }
+  .commenu{
+    position: relative;
+  float: right;
+  margin-left: auto; 
+margin-right: 0;
+   width: 2rem;
+   height: 100%;
+   cursor: pointer;
+  }

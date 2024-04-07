@@ -1,0 +1,35 @@
+
+.card {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height:35%;
+    z-index: 100;
+   margin-bottom: 7px;
+   cursor: pointer;
+   }
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.right{
+    padding-left: 7px;
+    width: 85%;
+}
+.left{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    max-height: 158.75px ;
+    width: 15%;
+    max-width: 158.75px ;
+    border-radius:50% ;
+    
+        border: 5px solid #555;
+      
+}

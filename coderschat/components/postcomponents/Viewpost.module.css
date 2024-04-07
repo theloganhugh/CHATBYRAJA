@@ -1,0 +1,367 @@
+
+  .username{
+width: 100%; 
+text-align: right;
+height: auto;
+font-size: 1.25rem;
+color: white;
+font-family: 'Offside', cursive;
+  
+}
+.menu{
+text-align: left;
+
+}
+
+.button{
+background: none;
+color: inherit;
+border: none;
+padding: 0;
+
+cursor: pointer;
+outline: inherit;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background-color: inherit;
+}
+.userblock{
+margin:0;
+padding: 0;
+display: flex;
+align-items: center;
+height: auto;
+width: 100%; 
+padding: 0 ;
+padding-left: 1rem;
+padding-top: 10px;
+
+padding-right: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    height: 100%;
+    max-height: 600px;
+  }
+  .formpro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    height: 70vh;
+    max-height: 600px;
+  }
+  
+  .control {
+    margin: 0.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  .concom {
+    margin: 0.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 100%;
+    padding-bottom: 10px;
+    
+  }
+  .ncom{
+   
+    overflow-y: scroll;
+  }
+  .ncom::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .ncom::-webkit-scrollbar-track {
+    background: inherit; 
+  }
+   
+  /* Handle */
+  .ncom::-webkit-scrollbar-thumb {
+    background: #00b4d8; 
+  }
+  
+  /* Handle on hover */
+  .ncom::-webkit-scrollbar-thumb:hover {
+    background: #00b4d8; 
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+  
+  }
+  
+  .imageimg {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    max-height: 450px;
+  
+  }
+  
+  .control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    max-height: 500px;
+    margin-bottom:7px;
+  }
+  
+  .control input,
+  .control textarea {
+    display: block;
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    width: 100%;
+  }
+  
+  .actions {
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: white;
+    color: #080708;;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #adb5bd;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #00b4d8;;
+    border-color: #00b4d8;
+    box-shadow: 3px 3px #045E70;
+  }
+   
+
+  .actions button:disabled {
+    background-color: grey;
+    border-color: grey;
+   cursor: not-allowed;
+  }
+  .user{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    text-align:left;
+    padding-right:  7px;
+    font-size: 1.05rem;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  .sform{
+    padding: 0;
+    margin: 0;
+   color: inherit;
+  
+
+  }
+  .scontrol {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    box-sizing: border-box;
+  
+   
+
+  }
+  .incom{
+    width: 98%;
+    height: 100%;
+    padding: 15 px 23px;
+    margin: 8px 0;
+    font-size: 0.86rem;
+    display: inline;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+background-color: inherit;
+color: white;
+
+   
+  }
+.incom:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+  .combtn{
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    font-size: 1.18rem;
+    background-color: #00b4d8;
+    
+    padding:  8px  14px;
+    border: 0px solid #c31432;
+  
+  color:wheat;
+  
+   
+  }
+  .combtn:disabled{
+    color: #c31432;;
+    cursor: not-allowed;
+    background-color: inherit;
+  }
+  .commenu{
+    position: relative;
+  float: right;
+  margin-left: auto; 
+margin-right: 0;
+   width: 2rem;
+   height: 100%;
+   cursor: pointer;
+  }
+  .btn{
+    background: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+	color: inherit;
+	border: none;
+
+width: 20%;
+	cursor: pointer;
+	outline: inherit;
+ padding: 0.7rem;
+   
+    background-color: #00b4d8;
+     border-top-right-radius: 6px;
+     border-top-left-radius:6px ;
+      }
+  .btn:hover,
+  .btn:active, 
+  .btn:focus{
+    
+    box-shadow: 3px 3px #045E70;
+  }
+  .like{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    
+  }
+  /* Slideshow container */
+.slideshowcontainer {
+  width: 100%;
+ position: relative;
+   margin: auto;
+ z-index: 1;
+ 
+ }
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   background-color: #045E70;
+   top: 0;
+   z-index: 1;
+ }
+ 
+ /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   
+   position: absolute;
+ 
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: #045E70;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: 0px;
+   
+   border-radius: 3px 0 0 3px;
+   
+ }
+ 
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+ 
+ 
+ 
+ /* The dots/bullets/indicators */
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+ 
+ /* Fading animation */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+   .prev, .next,.text {font-size: 11px}
+ }

@@ -1,0 +1,332 @@
+
+  .userblock{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: auto;
+   width: 100%; 
+   padding: 0 ;
+    padding-left: 1rem;
+    padding-top: 10px;
+    
+    padding-right: 1rem;
+  }
+  .username{
+    width: 100%; 
+    text-align: right;
+    height: auto;
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Offside', cursive;
+      
+  }
+ .menu{
+  text-align: left;
+  
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+  
+  }
+  
+  .imageimg {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    max-height: 750px;
+  
+  }
+  
+  .content {
+    text-align:left;
+    padding: 1rem;
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;    
+
+  }
+  
+  .button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+
+	cursor: pointer;
+	outline: inherit;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: inherit;
+  }
+  .modelback{
+    width: 100vw;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f73a;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+z-index: 2;
+    }
+  
+
+  .postmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 20%;
+    height: 25%;
+    background-color: #212529;
+    padding: 5px 10px;
+    z-index: 2;
+    
+  }
+  .confirmdel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 20%;
+    height: 25%;
+    background-color: #212529;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .btn{
+    background: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+	color: inherit;
+	border: none;
+
+width: 100%;
+	cursor: pointer;
+	outline: inherit;
+ padding: 0.7rem;
+   
+    background-color: #00b4d8;
+  }
+  .btn:hover,
+  .btn:active, 
+  .btn:focus{
+    
+    box-shadow: 3px 3px #045E70;
+  }
+  .comuser{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    text-align:left;
+    padding-right:  7px;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  .com{
+    margin: 0px;
+    padding: 0px;
+   
+    text-align:left;
+    padding-right:  7px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .user{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    text-align:left;
+    padding-right:  7px;
+    font-size: 1.05rem;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  .allcom{
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a1dffb;
+   cursor: pointer;
+    margin-bottom: 8px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  .sform{
+    padding: 0;
+    margin: 0;
+   color: inherit;
+
+  }
+  .control {
+    font-size: 15pt;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+  
+   
+
+  }
+  .incom{
+    width: 98%;
+    height: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+background-color: inherit;
+color: white
+   
+  }
+  .incom:focus{
+    border-bottom: 3px solid #0860a8;;
+  }
+  .incom::placeholder{
+    color: #9b9a99	;
+  }
+  .combtn{
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    font-size: 1.18rem;
+    background-color: inherit;
+    
+    padding:  8px  14px;
+    border: 0px solid #c31432;
+  
+  color: white;
+  
+   
+  }
+  .combtn:disabled{
+    color: #c31432;;
+    cursor: not-allowed;
+  }
+  .commenu{
+    position: relative;
+  float: right;
+  margin-left: auto; 
+margin-right: 0;
+   width: 2rem;
+   height: 100%;
+   cursor: pointer;
+  }
+  
+.like{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  
+}
+/* Slideshow container */
+.slideshowcontainer {
+ width: 100%;
+position: relative;
+  margin: auto;
+z-index: 1;
+
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  background-color: #045E70;
+  top: 0;
+  z-index: 1;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  
+  position: absolute;
+
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #045E70;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0px;
+  
+  border-radius: 3px 0 0 3px;
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

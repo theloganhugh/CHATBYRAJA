@@ -1,0 +1,304 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00b4d8;
+    background: #0099F7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 10%;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Comforter', cursive;
+
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  
+  .svg {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+  }
+  .svg path,
+  .svg polygon,
+  .svg rect {
+    fill: white;
+  }
+   
+  .svg1 {
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+  }
+  .svg1 path,
+  .svg1 polygon,
+  .svg1 rect {
+    fill: white;
+  }
+  .svge:hover,
+  .svge:active, 
+  .svge:focus{
+    background-color: #600538    ;
+    border-radius: 50% ;
+  }
+  .svge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+  }
+ 
+ 
+  
+  .button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: inherit;
+  }
+  
+  .button:hover,
+  .button:active, 
+  .button:focus{
+    background-color: #600538    ;
+    border-radius: 50% ;
+  }
+  .buttonlog{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: inherit;
+  }
+  .buttonimg{
+    position: relative;
+    display: inline-block;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2rem;
+      object-fit: cover;
+      width: 2rem;
+      background-color: inherit;
+      border-radius: 50%;
+  }
+  .buttonimg:hover,
+  .buttonimg:active, 
+  .buttonimg:focus{
+    background-color: #600538    ;
+    border-radius: 5px ;
+  }
+  .buttonlog:hover,
+  .buttonlog:active, 
+  .buttonlog:focus{
+    background-color: #600538    ;
+    border-radius: 5px ;
+  }
+  .svg circle {
+    stroke: white;
+    stroke-width: 1;
+  }
+  .sform{
+    padding: 0;
+    margin: 0;
+   color: wheat;
+
+  }
+  .control {
+    font-size: 15pt;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+  
+   
+
+  }
+  .incom{
+    width: 98%;
+    height: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: none;
+    border-bottom: 3px solid #a80823;
+   outline: none;
+background-color: inherit;
+color: white
+   
+  }
+  .incom::placeholder{
+    color: #c0bebb	;
+  }
+  .combtn{
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    font-size: 1.18rem;
+    background-color: inherit;
+    
+    padding:  8px  14px;
+    border: 0px solid #c31432;
+  
+  color: white;
+  
+   
+  }
+  .combtn:disabled{
+    color: #c31432;;
+    cursor: not-allowed;
+  }
+     .modelback{
+    width: 100vw;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f7f7f73a;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .overlay{
+    width: 70%;
+    height: 70%;
+    overflow-y:scroll;
+  z-index: 3;
+    color: white;
+    
+  }
+  .rlay{
+    width: 70%;
+    height: 70%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+  }
+  
+  .overlaynil{
+  
+   font-weight:bolder ;
+   font-size: 4rem;
+ color: black;
+    
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    align-items: center;
+    width: auto;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2;
+  }
+  .dropl{
+    padding: 10px 14px;
+    cursor: pointer;
+  }
+  .drop{
+    padding: 0px;
+    margin: 0px;
+    background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F11712, #e20606);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F11712, #e20606); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+  }
+  .close{
+    text-align: right;
+    font-family: 'Coda', cursive;
+    align-self: flex-end;
+  }
+  .overlay::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .overlay::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .overlay::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .overlay::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  @media (max-width: 600px) {
+    .logo {
+     content: url('https://res.cloudinary.com/coderschat/image/upload/v1640415523/my-post/dmwwrdy5lhdez307oetq.png');
+     width: 5rem;
+     height: 5rem;
+    }
+    .header{
+      background: #080708;
+    }
+    .button{
+      background: #080708;
+    }
+  }

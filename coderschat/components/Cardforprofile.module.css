@@ -1,0 +1,26 @@
+.card {
+  margin: 0;
+  z-index: 1;
+  padding: 0;
+   border-radius: 6px;
+   /* box-shadow: 0 2px 8px #6c757d; */
+    background: inherit;
+    opacity: 0.9;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   /* display: inline-block;
+   flex-direction: column;
+   justify-content: space-evenly; */
+   float: left;
+   /* align-items: center; */
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   transition: 0.25s;
+ }
+
+.card:hover{
+/* box-shadow: 1px 1px 1px #66757d; */
+transform: translateY(-8px);
+/* border: #66757d solid 1px; */
+}
