@@ -1,0 +1,10 @@
+{  "name": "socket",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
